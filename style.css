@@ -365,7 +365,7 @@
     
     .Mission {
         width: 100%;
-        height: 750px;
+        height: 800px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -553,7 +553,7 @@
     
     .Devlopment_goals-title {
         width: 100%;
-        height: 5vh;
+        height: 10vh;
         display: grid;
         grid-template-columns: auto;
         padding-left: 50px;
