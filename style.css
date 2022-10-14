@@ -922,3 +922,43 @@ body {
 .title-paragrph-for-Footer p {
     font-size: 12px;
 }
+
+@media(max-width:667px) {
+    .Footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #FFFEE9;
+    }
+    .Footer-grid {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 4px solid #F3DC41;
+        border-radius: 5px;
+        margin: 20px;
+        margin-bottom: 50px;
+    }
+    .Footer-cel {
+        display: flex;
+        flex-direction: row;
+        padding-left: 20px;
+        padding: 20px;
+        padding-bottom: 50px;
+    }
+    .img-for-Footer img {
+        width: 40px;
+        height: 40px;
+    }
+    .title-paragrph-for-Footer {
+        padding-left: 20px;
+    }
+    .title-paragrph-for-Footer h4 {
+        display: inline;
+        font-size: 12px;
+    }
+    .title-paragrph-for-Footer p {
+        font-size: 10px;
+    }
+}
